@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 mongoose.connect(
-	"mongodb+srv://fester:B5PK5Pm2TQBg0LH4@cluster0.urtjh.mongodb.net/todolistzzDB"
+	"mongodb+srv://fester:<password>@cluster0.urtjh.mongodb.net/todolistzzDB"
 );
 
 const itemsSchema = {
